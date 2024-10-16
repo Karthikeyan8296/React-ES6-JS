@@ -42,3 +42,12 @@ console.log(number(10));
 //arrow function
 const randomNumber = (n) => n * n;
 console.log(randomNumber(2));
+
+//Array.map//
+const colors = ["red", "yellow", "blue", "pink"];
+
+const items = colors.map((value) => {
+  return `<li>${value}</li>`;
+});
+
+console.log(items);
